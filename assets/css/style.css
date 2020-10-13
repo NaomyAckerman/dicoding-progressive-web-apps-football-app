@@ -1,0 +1,43 @@
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.preloader-wrapper {
+    margin: auto;
+}
+
+.card-standings {
+    height: 100px;
+    border-radius: 10px;
+}
+
+.team-img{
+    height: 50px;
+}
+
+.img-logo{
+    height: 300px;
+}
+
+@media screen and (max-width: 640px) {
+    .brand-logo{
+        font-size: 1.5em !important;
+    }   
+    #standings-liga, #teams-liga, #favorite-liga, #team-liga{
+        font-size: 1.5em !important;
+    }
+    .card-standings {
+        height: auto !important;
+    }
+    .club{
+        margin-bottom: 10px !important;
+    }
+    .img-logo{
+        height: 200px;
+    }
+}
